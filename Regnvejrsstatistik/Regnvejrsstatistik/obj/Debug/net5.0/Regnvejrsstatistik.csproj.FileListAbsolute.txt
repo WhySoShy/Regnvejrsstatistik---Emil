@@ -1,0 +1,16 @@
+C:\Users\Bruger\OneDrive\Skrivebord\Regnvejrsstatistik\Regnvejrsstatistik\bin\Debug\net5.0\Regnvejrsstatistik.exe
+C:\Users\Bruger\OneDrive\Skrivebord\Regnvejrsstatistik\Regnvejrsstatistik\bin\Debug\net5.0\Regnvejrsstatistik.deps.json
+C:\Users\Bruger\OneDrive\Skrivebord\Regnvejrsstatistik\Regnvejrsstatistik\bin\Debug\net5.0\Regnvejrsstatistik.runtimeconfig.json
+C:\Users\Bruger\OneDrive\Skrivebord\Regnvejrsstatistik\Regnvejrsstatistik\bin\Debug\net5.0\Regnvejrsstatistik.runtimeconfig.dev.json
+C:\Users\Bruger\OneDrive\Skrivebord\Regnvejrsstatistik\Regnvejrsstatistik\bin\Debug\net5.0\Regnvejrsstatistik.dll
+C:\Users\Bruger\OneDrive\Skrivebord\Regnvejrsstatistik\Regnvejrsstatistik\bin\Debug\net5.0\ref\Regnvejrsstatistik.dll
+C:\Users\Bruger\OneDrive\Skrivebord\Regnvejrsstatistik\Regnvejrsstatistik\bin\Debug\net5.0\Regnvejrsstatistik.pdb
+C:\Users\Bruger\OneDrive\Skrivebord\Regnvejrsstatistik\Regnvejrsstatistik\obj\Debug\net5.0\Regnvejrsstatistik.csproj.AssemblyReference.cache
+C:\Users\Bruger\OneDrive\Skrivebord\Regnvejrsstatistik\Regnvejrsstatistik\obj\Debug\net5.0\Regnvejrsstatistik.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bruger\OneDrive\Skrivebord\Regnvejrsstatistik\Regnvejrsstatistik\obj\Debug\net5.0\Regnvejrsstatistik.AssemblyInfoInputs.cache
+C:\Users\Bruger\OneDrive\Skrivebord\Regnvejrsstatistik\Regnvejrsstatistik\obj\Debug\net5.0\Regnvejrsstatistik.AssemblyInfo.cs
+C:\Users\Bruger\OneDrive\Skrivebord\Regnvejrsstatistik\Regnvejrsstatistik\obj\Debug\net5.0\Regnvejrsstatistik.csproj.CoreCompileInputs.cache
+C:\Users\Bruger\OneDrive\Skrivebord\Regnvejrsstatistik\Regnvejrsstatistik\obj\Debug\net5.0\Regnvejrsstatistik.dll
+C:\Users\Bruger\OneDrive\Skrivebord\Regnvejrsstatistik\Regnvejrsstatistik\obj\Debug\net5.0\ref\Regnvejrsstatistik.dll
+C:\Users\Bruger\OneDrive\Skrivebord\Regnvejrsstatistik\Regnvejrsstatistik\obj\Debug\net5.0\Regnvejrsstatistik.pdb
+C:\Users\Bruger\OneDrive\Skrivebord\Regnvejrsstatistik\Regnvejrsstatistik\obj\Debug\net5.0\Regnvejrsstatistik.genruntimeconfig.cache
