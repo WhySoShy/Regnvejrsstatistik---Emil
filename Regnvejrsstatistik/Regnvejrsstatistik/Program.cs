@@ -7,30 +7,37 @@ namespace Regnvejrsstatistik
     {
         static void Main(string[] args)
         {
-            Console.Write("Indtast regnvejrs statestikkerne fra mandag til søndag: ");
+            string error = "";
             double[] regnvejr = new double[7];
-            try
+            string[] input = new string[7], dage = new string[] { "Mandag", "Tirsdag", "Onsdag", "Torsdag", "Fredag", "Lørdag", "Søndag" };
+            do
             {
-                string input = Console.ReadLine().Split(' ');
-                for (int i = 0; i < 7; i++)
-                    regnvejr[i] = Convert.ToDouble(input[i]);
-                Console.WriteLine("Gennemsnit regn i mm: " + CalcAverage(regnvejr));
-                Console.WriteLine("Højeste målte regn i mm: " + regnvejr.Max());
-                Console.WriteLine("Laveste målte regn i mm: " + regnvejr.Min());
+                try
+                {
+                    Console.Clear();
+                    if (error.Length > 0)
+                        Console.WriteLine("Error: "+error);
+                    Console.Write("Indtast regnvejrs statestikkerne fra mandag til søndag: ");
+                    input = Console.ReadLine().Split(' ');
+                    for (int i = 0; i < input.Length; i++)
+                        regnvejr[i] = Convert.ToDouble(input[i]);
+                    Console.WriteLine("Gennemsnit regn i mm: " + CalcAverage(regnvejr).ToString().Remove(4));
+                    Console.WriteLine("Højeste målte regn i mm: " + regnvejr.Max());
+                    Console.WriteLine("Laveste målte regn i mm: " + regnvejr.Min());
+                    for (int i = 0; i < dage.Length; i++)
+                        Console.WriteLine(dage[i] + " - " + regnvejr[i].ToString());
 
-                string[,] menu = new string[7, 2] { {"Mandag", null }, { "Tirsdag", null }, { "Onsdag", null }, { "Torsdag", null }, { "Fredag", null }, { "Lørdag", null }, { "Søndag", null } };
-                for (int i = 0; i < regnvejr.Length; i++)
-                    menu[i, 1] = regnvejr[i].ToString();
-                for (int i = 0; i < regnvejr.Length; i++)
-                    Console.WriteLine(menu[i, 0] + " - " + menu[i, 1]);
+                    Console.WriteLine("Tryk på en knap for at indtaste nye regnvejrs statestikker");
+                    Console.ReadKey();
+                    error = "";
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine("Der skete en fejl i programmet. ");
+                    error = e.Message;
+                }
+            } while (true);
 
-
-            }
-            catch (Exception)
-            {
-                Console.WriteLine("Der skete en fejl i programmet. ");
-                throw;
-            }
         }
         static double CalcAverage(double[] gen) 
         {
