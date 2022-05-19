@@ -5,3 +5,5 @@ Måden du skal skrive dine tal på er: __1 2 3 4 5 6 7__ også splitter den det 
 Vær **OBS!** på at du skriver tallende rigtigt ift. dagende (Mandag, Tirsdag, Onsdag, Torsdag, Fredag, Lørdag, Søndag).
 
 Når du har gjordt de ting som programmet beder dig om, regner den gennemsnittet finder maks og den mindste værdi af de 7 tal
+
+**OBS!** Husk og skriv talene i kommatal :)
