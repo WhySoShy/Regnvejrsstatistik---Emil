@@ -9,13 +9,11 @@ namespace Regnvejrsstatistik
         {
             Console.Write("Indtast regnvejrs statestikkerne fra mandag til søndag: ");
             double[] regnvejr = new double[7];
-            string[] inputarray = new string[7];
             try
             {
-                string input = Console.ReadLine();
-                inputarray =  input.Split(' ');
-                for (int i = 0; i < inputarray.Length; i++)
-                    regnvejr[i] = Convert.ToDouble(inputarray[i]);
+                string input = Console.ReadLine().Split(' ');
+                for (int i = 0; i < 7; i++)
+                    regnvejr[i] = Convert.ToDouble(input[i]);
                 Console.WriteLine("Gennemsnit regn i mm: " + CalcAverage(regnvejr));
                 Console.WriteLine("Højeste målte regn i mm: " + regnvejr.Max());
                 Console.WriteLine("Laveste målte regn i mm: " + regnvejr.Min());
