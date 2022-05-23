@@ -1,9 +1,6 @@
-# Regnvejrsstatistik---Emil
+# Regnvejrsstatistik
 
-Du bliver bedt om at indtaste 7 tal med mellemrum fra mandag til søndag (I den rækkefølge).
-Måden du skal skrive dine tal på er: __1,11 2,22 3,33 4,44 5,55 6,66 7,77__ også splitter den det selv og putter det ind i et array.
-Vær **OBS!** på at du skriver tallende rigtigt ift. dagende (Mandag, Tirsdag, Onsdag, Torsdag, Fredag, Lørdag, Søndag).
+> Du bliver bedt om at indtaste hvor meget det har regnet i løbet af ugen, fra mandag til søndag.  
+> Tallende bliver indtastet i ***mm*** altså kommatal eksempelvis: ___7.0___ eller ___5.55___.  
+> Tallende bliver brugt til at udregne gennemsnittet af regnen i de 7 dage, der bliver fundet et maksimum og minimum nedbør for de 7 dage.
 
-Når du har gjordt de ting som programmet beder dig om, regner den gennemsnittet finder maks og den mindste værdi af de 7 tal
-
-**OBS!** Husk og skriv talene i kommatal :)
